@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+    width: 100%;
+    background: #03022d;
+    height: 65px;
+    position: fixed;
+    z-index: 2;   
+}
+.navbar__logo{
+    width: 200px;
+}
+
+.navbar,
+.navbar__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.navbar__list a{
+    color: #bcbcc1;
+}
+
+#toggle-menu,
+.menu-label{
+    display: none;
+}
+
+.main__login{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#03022d,#1f1d63);
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 250px 0;
+}
+
+.login h1{
+    background: linear-gradient(to right,#810606,#460e03);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.login__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 70px 0;
+}
+
+.login__menu input{
+    color: #bcbcc1;
+}
+
+.password,
+.log{
+    padding: 10px 30px 10px 30px;
+    background-color: #03022d;
+    width: 250px;
+    border-radius: 2rem;
+    border: 1px solid #0ebabd;
+}
+
+.login__menu a{
+    padding: 15px 8px;
+    color: #bcbcc1;
+    background: #460303;
+    letter-spacing: 2px;
+    border-radius: 2rem;
+    width: 230px;
+    text-align: center;
+    border: 1px solid #bcbcc1;
+}
+
+.footer__login{
+    background: linear-gradient(to top,#03022d,#1f1d63);
+}
+
+.footer__spidy--login img{
+    width: 70px;
+}
+
+.footer__spidy--login p{
+    color: #d2cece;
+}
+
+.footer__spidy--login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 10px;
+}
+
+

@@ -179,7 +179,6 @@
 
 .villans__cart{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 150px;
@@ -217,26 +216,31 @@
 .buitre{
     background:radial-gradient(#420a0a,#3f0707);
     padding: 30px 0px;
+    width: 100%;
 }
 
 .electro{
     background: radial-gradient(#090935 10%,#0c0c33 80%);
     padding: 30px 0px;
+    width: 100%;
 }
 
 .rhino{
     background:radial-gradient(#420a0a,#3f0707);
     padding: 30px 0px;
+    width: 100%;
 }
 
 .negative{
     background: radial-gradient(#090935 10%,#0c0c33 80%);
     padding: 30px 0px;
+    width: 100%;
 }
 
 .shocker{
     background:radial-gradient(#420a0a,#3f0707);
     padding: 30px 0px;
+    width: 100%;
 }
 
 .kingpin>.villans__cart--info,

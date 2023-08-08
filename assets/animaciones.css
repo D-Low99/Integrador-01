@@ -69,7 +69,13 @@ html{
     animation: slip-up 1.6s ease-out;
 }
 
-.btn:hover,
+.btn:hover{
+    border:  1px solid #ececec9d;
+    box-shadow: 0 7px 50px 10px #0000006d;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
 .content--spidy:hover,
 .villans__cart:hover{
     border: 1px solid #ececeea0;
@@ -95,3 +101,64 @@ html{
     background: #03022d;
     transition: all 0.3s ease-in;
 }
+
+/* login CSS*/
+
+.login h1{
+    animation: fade 0.8s ease-in, slip-right 1s ease-in;
+}
+
+.log{
+    animation: slip-right 1.3s ease-in-out
+}
+
+.password{
+    animation: slip-right 1.6s ease-in-out
+}
+
+.login__menu a{
+    animation: slip-right 1.9s ease-in-out
+}
+
+.log:hover,
+.password:hover,
+.login__menu a:hover{
+    border:  1px solid #ececec9d;
+    box-shadow: 0 7px 50px 10px #0000006d;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+
+/* Register CSS */
+
+.main__register h1{
+    animation: fade 0.8s ease-in, slip-right 0.8s ease-in;
+}
+
+#nombre-register{
+    animation: slip-right 1s ease-in-out
+}
+#apellido-register{
+    animation: slip-right 1.2s ease-in-out
+}
+#mail-register{
+    animation: slip-right 1.4s ease-in-out
+}
+#pass-register{
+    animation: slip-right 1.6s ease-in-out
+}
+#pass-2-register{
+    animation: slip-right 1.8s ease-in-out
+}
+
+.register__box a{
+    animation: slip-right 2s ease-in-out
+}
+.register__box a:hover{
+    border: 1px solid #ececec9d;
+    box-shadow: 0 7px 50px 10px #0000006d;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+

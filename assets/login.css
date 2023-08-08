@@ -99,6 +99,7 @@
     width: 230px;
     text-align: center;
     border: 1px solid #bcbcc1;
+    transition: all 0.4s ease-in-out;
 }
 
 .footer__login{

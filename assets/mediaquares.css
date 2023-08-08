@@ -42,8 +42,8 @@
     #toggle-menu:checked ~ .navbar__list{
         transform: translateX(0);
     }
-
-    .hero__spidy img{
+    
+    .hero__spidy :img{
         width: 300px;
     }
 

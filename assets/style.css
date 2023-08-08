@@ -34,6 +34,12 @@
     gap: 100px;
 }
 
+.navbar__list li:first-child>a{
+    font-size: 20px;
+    color: #fbfbff;
+    font-weight: 600;
+}
+
 .navbar__list a{
     color: #bcbcc1;
 }
@@ -72,7 +78,7 @@
     background: linear-gradient(#bcbcc1,#810606);
     color: transparent;
     background-clip: text;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; 
 }
 
 .hero__home p{
@@ -93,6 +99,9 @@
     color: #bcbcc1;
     width: 200px;
     letter-spacing: 2px;
+    font-weight: 800;
+    transition: all 0.7s ease-out;
+
 }
 
 .btn--login{
@@ -150,7 +159,8 @@
     padding: 15px 25px 15px 25px;
     border-radius: 2rem;
     width: 60%;
-    
+    transition: all 0.7s ease-out;
+
 }
 
 .content--spidy img{
@@ -182,6 +192,7 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
+    transition: all 0.7s ease-out;
 }
 
 .villans__cart--info{

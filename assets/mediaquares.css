@@ -77,7 +77,7 @@
         width: 5px;
         transform: rotate(90deg);
     }
-    }
+    
 
     #toggle-menu:checked ~ .menu-label>.menu-label-span-3{
         position: absolute;

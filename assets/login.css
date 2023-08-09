@@ -59,7 +59,7 @@
 }
 
 .login h1{
-    background: linear-gradient(to right,#810606,#460e03);
+    background: linear-gradient(#bcbcc1,#810606);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;

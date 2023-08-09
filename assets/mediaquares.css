@@ -318,9 +318,12 @@
     }
     .hero__home h1{
         font-size: 30px;
+        text-align: center;
+        padding: 0 2px;
     }
     .hero__home p{
         font-size: 18px;
+        font-weight: 400;
     }
 
     .home__buttom{
@@ -364,10 +367,44 @@
     .footer__spidy img{
         width: 50px;
     }
+
+    /* Login CSS */
+
+    .header img{
+        width: 150px;
+    }
+
+    .login h1{
+        font-size: 30px;
+    }
+
+    .login__menu a,
+    .login__menu input{
+        width: 200px;
+    }
+
+    .footer__spidy--login p{
+        padding: 5px;
+        text-align: center;
+    }
+
+    /* Register CSS */
+
+    .main__register h1{
+        font-size: 35px;
+    }
+    .register__box a,
+    .register__box input{
+        width: 200px;
+    }
+
+    .footer__spidy--register p{
+        padding: 5px;
+        text-align: center;
+    }
 }
 
 @media (max-width:282px) {
-
     .header img{
         width:  150px;
     }
@@ -376,15 +413,15 @@
         padding: 10px;
     }
 
-.content--spidy img{
+    .content--spidy img{
     width: 30px;
-}
-.content--spidy h3{
+    }
+    .content--spidy h3{
     font-size: 15px;
-}
-.content--spidy p{
+    }
+    .content--spidy p{
     font-size: 12px;
-}
+    }
 
     #location{
         display: flex;

@@ -57,6 +57,26 @@ html{
 
 /* Style CSS */
 
+.overlay{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+
+    background: rgba(225, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(30, 40, 135, 0.4);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    display: none;
+}
+
+#toggle-menu:checked ~ .overlay{
+    display: block;
+}
+
+
 .hero__home h1{
     animation: fade 0.8s ease-in, slip-up 1.2s ease-out;
 }

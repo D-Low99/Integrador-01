@@ -9,7 +9,9 @@
     list-style-type: none;
     font-family: "Poppins", sans-serif;
 }
-
+body{
+    overflow-x: hidden;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -192,7 +194,9 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
-    transition: all 0.7s ease-out;
+    animation: scale2 1.2s ease-out forwards;
+    border: 1px solid #ececeea0;
+    box-shadow: 0 7px 50px 10px #0000006d;
 }
 
 .villans__cart--info{

@@ -55,6 +55,25 @@ html{
     }
 }
 
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.030);
+    }
+}
+@keyframes scale2{
+    0%{
+        transform: scale(1.030);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
 /* Style CSS */
 
 .overlay{
@@ -96,13 +115,18 @@ html{
     transition: all 0.4s ease-in-out;
 }
 
-.content--spidy:hover,
-.villans__cart:hover{
+.content--spidy:hover{
     border: 1px solid #ececeea0;
     box-shadow: 0 7px 50px 10px #0000006d;
     transform: scale(1.015);
     transition: all 0.7s ease;
     text-align: center;
+}
+
+.villans__cart:hover{
+    animation: scale 1.2s ease-in forwards;
+    border: 1px solid #ececeea0;
+    box-shadow: 0 7px 50px 10px #0000006d;
 }
 
 .btn--login {

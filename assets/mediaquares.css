@@ -115,7 +115,7 @@
     .hero__spidy img{
         width: 300px;
     }
-
+    
     .villans__cart img{
         width: 300px;
     }
@@ -152,14 +152,17 @@
     
     .content--spidy{
         width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
 
     .content--spidy p{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .content--spidy img{
-        width: 40%;
+        width: 30%;
     }
 
     .hero__home h1{
@@ -172,6 +175,10 @@
 
     .villans__cart{
         gap: 30px;
+    }
+
+    .villans__cart img {
+        width: 240px;
     }
 
     iframe{
@@ -215,10 +222,18 @@
     .content--spidy{
         width: 100%;
         height: 200px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
 
     .content--spidy img{
-        width: 50px;
+        width: 40px;
+    }
+
+    .content--spidy h3{
+        font-size: 17px;
     }
 
     .villans__cart{

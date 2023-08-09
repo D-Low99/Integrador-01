@@ -1,3 +1,4 @@
+
 @media (max-width:1250px){
     .hero__spidy img {
         width: 350px;
@@ -101,9 +102,17 @@
         transform: rotate(90deg);
     }
 
+    /* Style CSS */
+
+    .hero__home h1{
+        font-size: 40px;
+    }
+
+    .hero__home p{
+        font-size: 25px;
+    }
     
-    
-    .hero__spidy :img{
+    .hero__spidy img{
         width: 300px;
     }
 
@@ -163,6 +172,11 @@
 
     .villans__cart{
         gap: 30px;
+    }
+
+    iframe{
+        max-height: 300px;
+        
     }
 
     /* Login CSS */

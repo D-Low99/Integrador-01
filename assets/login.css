@@ -48,14 +48,14 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(#03022d,#1f1d63);
-
 }
 
 .login{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 100px 0;
+    gap: 30px;
+    padding: 187px 0;
+    padding-bottom: 140px;
 }
 
 .login h1{
@@ -63,7 +63,7 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    font-size:35px;
+    font-size: 40px;
     font-weight: 1000;
     text-align: center;
 }
@@ -74,7 +74,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .login__menu input{

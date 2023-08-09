@@ -165,6 +165,20 @@
         gap: 30px;
     }
 
+    /* Login CSS */
+
+    .login{
+        padding: 100px 30px 80px 30px;
+        gap: 30px;
+    }
+
+    .login__menu {
+        padding: 30px 0 10px 0;
+    }
+    .login h1 {
+        text-align: center;
+    }
+
 }
 
 @media (max-width:596px) {

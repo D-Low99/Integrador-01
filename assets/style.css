@@ -196,7 +196,6 @@ body{
     gap: 150px;
     animation: scale2 1.2s ease-out forwards;
     border: 1px solid #ececeea0;
-    box-shadow: 0 7px 50px 10px #0000006d;
 }
 
 .villans__cart--info{

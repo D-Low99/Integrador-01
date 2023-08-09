@@ -310,7 +310,7 @@
 
 @media (max-width: 370px) {
     #location{
-        padding:0 15px 40px 0;
+        padding:0 15px 40px 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -338,6 +338,7 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
+        padding: 10px ;
     }
     .content--spidy p{
         font-size: 13px;
@@ -357,6 +358,7 @@
 
     iframe{
         height: 150px;
+        width: 200px;
     }
 
     .footer__spidy img{
@@ -369,6 +371,20 @@
     .header img{
         width:  150px;
     }
+
+    .content--spidy{
+        padding: 10px;
+    }
+
+.content--spidy img{
+    width: 30px;
+}
+.content--spidy h3{
+    font-size: 15px;
+}
+.content--spidy p{
+    font-size: 12px;
+}
 
     #location{
         display: flex;

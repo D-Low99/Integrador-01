@@ -311,10 +311,16 @@
 @media (max-width: 370px) {
     #location{
         padding:0 15px 40px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
+    .hero__home h1{
+        font-size: 30px;
+    }
     .hero__home p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .home__buttom{
@@ -350,7 +356,7 @@
     }
 
     iframe{
-        height: 100px;
+        height: 150px;
     }
 
     .footer__spidy img{

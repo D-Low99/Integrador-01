@@ -285,7 +285,7 @@ iframe{
 }
 
 .follow h3{
-    font-size: 30px;
+    font-size: 40px;
     color: #d2cece;
 }
 
@@ -296,11 +296,12 @@ iframe{
 .followme--location{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; 
+    font-size: 25px;
 }
 
 .followme--location img{
-    width: 30px;
+    width: 50px;
 }
 
 .footer{

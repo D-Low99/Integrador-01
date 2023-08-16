@@ -87,6 +87,7 @@
     border-radius: 1rem;
     width: 250px;
     color: #bcbcc1;
+    transition: all 0.4s ease-in-out;
 }
 
 .register__box a{

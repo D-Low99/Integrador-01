@@ -182,24 +182,26 @@ html{
 }
 
 #nombre-register{
-    animation: slip-right 1s ease-in-out
+    animation: slip-right 1s ease-in-out;
 }
 #apellido-register{
-    animation: slip-right 1.2s ease-in-out
+    animation: slip-right 1.2s ease-in-out;
 }
 #mail-register{
-    animation: slip-right 1.4s ease-in-out
+    animation: slip-right 1.4s ease-in-out;
 }
 #pass-register{
-    animation: slip-right 1.6s ease-in-out
+    animation: slip-right 1.6s ease-in-out;
 }
 #pass-2-register{
-    animation: slip-right 1.8s ease-in-out
+    animation: slip-right 1.8s ease-in-out;
 }
 
 .register__box a{
-    animation: slip-right 2s ease-in-out
+    animation: slip-right 2s ease-in-out;
 }
+
+.register__box input:hover,
 .register__box a:hover{
     border: 1px solid #ececec9d;
     box-shadow: 0 7px 50px 10px #0000006d;
